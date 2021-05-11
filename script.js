@@ -3,7 +3,7 @@ let guess
 
 guess = parseInt(prompt('Guess a number: '))
 
-while (guess != number) {
+while (guess !== number) {
   if (guess > number) {
     guess = parseInt(prompt('Incorrect! Guess is too large: '))
   } else if (guess < number) {
